@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: mediumaquamarine;
+    text-align: center;
+}
+
+.topCard {
+    height: 100px;
+    width: 300px;
+    background-color: darkslateblue;
+    border-radius: inherit;
+}
+
+.card {
+    height: 520px;
+    width: 300px;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 8px;
+    margin: 50px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.userImg img {
+    height: 200px;
+    width: 200px;
+    border: 5px solid white;
+    border-radius: 100px;
+    display: inline;
+    text-align: center;
+    margin-top: -50px;
+    object-fit: cover;
+}
+
+.userName > h1 {
+    padding-top: 10px;
+    color: darkslateblue;
+    font-size: 30px;
+}
+
+.userProfession > h2 {
+    padding: 10px 0 10px 0;
+    color: darkslateblue;
+    font-size: 18px;
+}
+
+.userSummary{
+    padding-bottom: 20px;
+}
+
+.userLinks{
+    border-top: 1px solid grey;
+}
+
+.linkOne{
+    display: inline-block;
+    width: 49%;
+    border-right: 1px solid grey;
+}
+
+.linkTwo{
+    display: inline-block;
+    width: 49%;
+}
+
+.linkOne img{
+    height: 50px;
+    width: 50px;
+    padding-top: 15px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.linkTwo img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    object-fit: cover;
+}
